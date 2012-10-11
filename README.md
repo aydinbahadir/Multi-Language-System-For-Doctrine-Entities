@@ -18,7 +18,7 @@ MLS System For Doctrine ORM is an entity based Multi Language System for Doctrin
 * <b>Add translations to BBR_Translations table like this: </b>
 <pre>id - table - column - row - translation - language_id
 1- LypGoods (your entity's name) - name - 1 - Kalem - 1</pre>
-* Change your entity class and add translation array on construct function like this:
+* Change your entity class and add translation array like this:
 <pre>public $translation_fields = array();</pre> to:
 <pre>public $translation_fields = array('name');</pre>
 
